@@ -10,7 +10,7 @@ def conectardb():
                                password="pbxk1064",
                                port="5432")
     print("registrado com sucesso")
-    return conexao
+    return conexao #teste1
 
 # Chame a função para testar a conexão
 conexao = conectardb()
